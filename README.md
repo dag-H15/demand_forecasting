@@ -27,7 +27,8 @@ demand_forecasting/
 │   ├── train.py             # Model training and evaluation
 │   └── predict.py           # Prediction functions
 └── app/                      # Web application
-    └── app.py               # Streamlit dashboard
+|    └── app.py               # Streamlit dashboard
+└──analysis_script.py
 ```
 
 ## 🚀 Quick Start

@@ -27,7 +27,7 @@ from predict import predict
 
 # Configure Streamlit page
 st.set_page_config(
-    page_title="Demand Forecasting System",
+    page_title="Multi-Store Retail Product Demand Prediction System",
     page_icon="📊",
     layout="wide"
 )
@@ -49,7 +49,7 @@ def load_original_data():
     df = pd.read_csv(data_path)
     return df
 
-st.title("📊 Demand Forecasting System")
+st.title("📊 Multi-Store Retail Product Demand Prediction System")
 
 # Sidebar navigation for different app sections
 page = st.sidebar.selectbox("Choose a page", ["Prediction", "Model Comparison", "Data Analysis", "Feature Importance"])
